@@ -1,2 +1,3 @@
-# tenoxui-css-library
-A css library built with tenoxui css framework.
+# TenoxUI Library
+
+Explore various classes, styles, and components built with TenoxUI (css framework).
