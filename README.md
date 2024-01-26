@@ -36,8 +36,10 @@ The first heading will have `color: red`. For the second tag, the `tc-red` will 
 In TenoxUI css framework, there's variable called `type` and `propertiy`. `type` is what class that will used to trigger the styling. `property` is what css property that will trigered after we call its `type` that we already define, `property` must be an array.
 
 Parameter :
-```json
-{type: property}
+```js
+Types = {
+  type: property
+}
 ```
 
 Usage :
@@ -46,14 +48,20 @@ props = {
   "my-props": ["property1", "property2"],
 }
 ```
+After define it, you can use it directly to you elements :
+
+```html
+<tag class="my-props-{n}"></tag>
+```
 
 #### Knowing what you do
 
 Let's say we've defined type and property
 
-
-#### 
-
+```
+"py": ["paddingTop", "paddingBottom"],
+"px": ["paddingRight", "paddingLeft"]
+```
 
 ### Give multiple style in one class
 
