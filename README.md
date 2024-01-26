@@ -6,7 +6,7 @@ Explore various classes, styles, and components built with TenoxUI (css framewor
 
 ## Classes
 
-Use small and fast css framework through your projects.
+TenoxUI is used to built classes, styles, and component. Quick learn about TenoxUI css framework :
 
 ### Adding class through element
 
@@ -30,6 +30,30 @@ HTML :
 
 ```
 The first heading will have `color: red`. For the second tag, the `tc-red` will ignored and use the `color: blue` instead.
+
+### Adding custom type and property
+
+In TenoxUI css framework, there's variable called `type` and `propertiy`. `type` is what class that will used to trigger the styling. `property` is what css property that will trigered after we call its `type` that we already define, `property` must be an array.
+
+Parameter :
+```json
+{type: property}
+```
+
+Usage :
+```js
+props = {
+  "my-props": ["property1", "property2"],
+}
+```
+
+#### Knowing what you do
+
+Let's say we've defined type and property
+
+
+#### 
+
 
 ### Give multiple style in one class
 
