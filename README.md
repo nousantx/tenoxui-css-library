@@ -195,6 +195,6 @@ You can add selector you want except `pseudo` selector.
 
 Built seamless, fast, and responsive ui design with various classes and style we provide. Also make it faster with framework we built ( TenoxUI Css Framework ) to generate small, fast, and more efficient styling for your web projects.
 
-## Support this project ☺️
+## Support me 😞
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/nousantx) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nousantx) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nousantx)
