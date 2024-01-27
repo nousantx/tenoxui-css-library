@@ -58,9 +58,76 @@ After define it, you can use it directly to you elements :
 
 Let's say we've defined type and property
 
+```json
+{
+  "py": ["paddingTop", "paddingBottom"],
+  "px": ["paddingRight", "paddingLeft"]
+}
 ```
-"py": ["paddingTop", "paddingBottom"],
-"px": ["paddingRight", "paddingLeft"]
+
+After define your custom types, you can use it directly in your project
+
+```html
+<div class="px-2rem py-4rem"></div>
+```
+
+the code will give style; 2rem of padding top and bottom, 4rem for padding left and right.
+
+#### `addType` and `defineProps`
+
+Now, how can i add my custom type and property? Dont worry, you can use `addType` and `defineProps`
+
+- `addType`
+
+This function allow you to add your custom type with single line of code
+
+Parameter :
+```js
+addType(type, [property])
+```
+
+`type`: class will trigger the style. It always string.
+
+`property`: this is what css property that will added to the element. It must be an array.
+
+Simple Usage :
+
+```js
+addType("my-prop", ["padding"])
+```
+
+After define it, you can use `my-prop` to set the padding of an element
+
+```html
+<div class="my-prop-18px"></div>
+```
+
+It will give 18px of padding to the element.
+
+
+Note: `addType` function will add only one new type.
+
+- `defineProps`
+
+Similiar to `addType`, it'll allow you to add new type and property. But, you can add more than one type and property.
+
+Parameter :
+
+```js
+arr = {
+  type: [property]
+}
+
+defineProps({array})
+```
+
+Simple Usage :
+```js
+let myProps = {
+  "py": ["paddingTop", "paddingBottom"],
+  // Specify the property
+  "br": ["", "", ""]
+}
 ```
 
 ### Give multiple style in one class
@@ -128,6 +195,6 @@ You can add selector you want except `pseudo` selector.
 
 Built seamless, fast, and responsive ui design with various classes and style we provide. Also make it faster with framework we built ( TenoxUI Css Framework ) to generate small, fast, and more efficient styling for your web projects.
 
-## Support this project ☺️
+## Support me 😞
 
 [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/nousantx) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/nousantx) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/nousantx)
