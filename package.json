@@ -1,0 +1,28 @@
+{
+  "name": "@tenoxui/styles",
+  "version": "1.0.0",
+  "description": "A css library built with tenoxui css framework.",
+  "main": "dist/js/tstyle.js",
+  "style": "dist/css/tstyle.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nousantx/tenoxui-css-library.git"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "framework"
+  ],
+  "author": "nousantx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nousantx/tenoxui-css-library/issues"
+  },
+  "homepage": "https://github.com/nousantx/tenoxui-css-library#readme",
+  "dependencies": {
+    "tenoxui": "^0.5.0"
+  }
+}
