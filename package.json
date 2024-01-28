@@ -5,7 +5,8 @@
   "main": "dist/js/tstyle.js",
   "style": "dist/css/tstyle.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mini-js": "terser src/js/tui.js -o dist/js/tui.min.js --mangle && cp src/js/* dist/js/"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,9 @@
     "url": "https://github.com/nousantx/tenoxui-css-library/issues"
   },
   "homepage": "https://github.com/nousantx/tenoxui-css-library#readme",
-  "dependencies": {
-    "tenoxui": "^0.5.0"
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "tenoxui": "^0.5.0",
+    "terser": "^5.27.0"
   }
 }
