@@ -138,14 +138,12 @@ let tenox_lib_style = {
   ".isolate": "isolation-isolate",
   ".isolation-auto": "isolation-auto",
   // Flex Direction
-
   // Flex Grow
   ".grow": "fx-grow-1",
   ".grow-0": "fx-grow-0",
   // Flex Shrink
   ".shrink": "fx-shrink-1",
   ".shrink-0": "fx-shrink-0",
-
   // Defined by me :)
   "[pre-flex],.fx-ctr,.flex-center,.flex-wrap, .fx-wrap,.fx-ctr, .flex-center,.fx-end,.fx-str, .flex-start,.fx-end-col, .flex-end-col,.fx-str-col, .flex-str-col,.fx-ctr-col, .flex-center-column":
     "display-flex",
@@ -190,7 +188,7 @@ MultiProps({
   "-web-appear": ["-webkit-appearance"],
 });
 
-// TenoxUI Style
+// normalize.css by necolas | https://github.com/necolas/normalize.css
 
 const normalize = {
   html: "lh-1.5 -web-adjust-text-100%",
@@ -224,9 +222,4 @@ const normalize = {
     "h-auto",
   '[type="search"]::-webkit-search-decoration': "-web-appear-none",
   '[type="search"]': "-web-appear-textfield line-offset--2px",
-};
-
-let Component = {
-  // Container
-  "body,main,section": "",
 };
