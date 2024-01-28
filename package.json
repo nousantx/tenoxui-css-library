@@ -5,7 +5,6 @@
   "main": "dist/js/tstyle.js",
   "style": "dist/css/tstyle.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "mini-js": "terser src/js/tui.js -o dist/js/tui.min.js --mangle && cp src/js/* dist/js/"
   },
   "repository": {
