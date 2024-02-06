@@ -171,14 +171,3 @@ let tenox_lib_style = {
   ".fd-clm": "fd-column",
   ".round, .circle": "br-50%",
 };
-
-MultiProps({
-  // Must add
-  bdr: ["border"],
-  "max-width": ["maxWidth"],
-  "min-width": ["minWidth"],
-  "max-height": ["maxHeight"],
-  "min-height": ["minHeight"],
-  py: ["paddingTop", "paddingBottom"],
-  px: ["paddingLeft", "paddingRight"],
-});

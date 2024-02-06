@@ -2,7 +2,6 @@
  * (c) TenoxUI CSS Framework v0.5
  */
 :root {
-  /* TenoxUI v0.4.25 Below */
   --full: stretch;
   --col: column;
   --fxs: flex-start;
@@ -22,7 +21,6 @@
   --no-repeat: no-repeat;
   --ib: inline-block;
   --i-fx: inline-flex;
-  /* tenoxui v0.4.26 or higher */
   --tx__video: 16/9;
   --tx__poster: 3/4;
   --tx__avoid-page: avoid-page;
